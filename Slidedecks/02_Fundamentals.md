@@ -1,5 +1,5 @@
 % Chapter 2: Java Fundamentals
-% CS 2070
+% AP Computer Science A Prep
 % \today
 
 # Review

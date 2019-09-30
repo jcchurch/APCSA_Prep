@@ -1,5 +1,5 @@
 % Chapter 1: Introduction to Computers and Programming
-% CS 2070
+% AP Computer Science A Prep
 % \today
 
 # Introduction to Computers and Programming
