@@ -9,7 +9,7 @@
 - What is bytecode?
 - What is just-in-time compiling?
 - What is the name of the IDE that we are using in this class?
-- What do the following acronym stand for: IDE, JVM, JDK, nd JRE.
+- What do the following acronyms stand for: IDE, JVM, JDK, and JRE.
 - What is the file extension of Java source code?
 - What is the file extension of Java class files?
 - What's the name of the program that compiles Java programs?
@@ -472,6 +472,3 @@ Once we have the class imported, we can use it. Here's an example.
     System.out.println("In five years, you will be " + 
         agePlusFive + " years old");
 
-## Email me your questions about this lecture.
-
-churchj@apsu.edu
