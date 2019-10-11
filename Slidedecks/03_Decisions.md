@@ -488,4 +488,4 @@ Code.
     Random random = new Random();
     int value = random.nextInt(10);
 
-This code will generate a random value from 0 to 9. Using a switch statement, write a fortune cookie program that will produce one of 10 random messages.
+This code will generate a random value from 0 to 9. Using a switch statement, write a fortune cookie program that will produce one of 10 random messages. You will need to run "Fix imports" within NetBeans or type "import java.util.*;" on the first line of the code.
