@@ -1,12 +1,6 @@
 % Week 1: Introduction to Computers and Programming
+% AP Computer Science A Prep
 % \today
-
-# Introduction
-
-## Required Software
-
-- NetBeans 8.2 + Java JDK 8 Bundle. You can find this on the [http://oracle.java.com] website. I have a video in which I download the bundle.
-- The latest version of Java is Java 9. Don't download this version. You can get the NetBeans bundle for the three major operating systems and it's straight-forward to install.
 
 # Introduction to Computers and Programming
 
@@ -16,7 +10,7 @@
 - Program: instructions in computer memory that solve a problem
 - Programmer: person who writes instructions (i.e. programs) to make the computer perform a task
 
-With out a programmer, there are no programs. With out programs, a computer cannot do anything.
+Without a programmer, there are no programs. Without programs, a computer cannot do anything.
 
 ## More Terms
 
@@ -66,8 +60,6 @@ Output devices are used to represent the results of a process. What are some out
 1. Input devices feed into the CPU and Main Memory.
 2. CPU and Main Memory will often work with Storage memory.
 3. Results from CPU will feed into the output devices.
-
-See Figure 1-2 in your textbook for an overview of how the components interact.
 
 ## Central Processing Unit - CPU
 
@@ -120,7 +112,7 @@ Comprised of:
 
 ## Guiding the Green Circle
 
-Pair up: Imagine that you have two objects on your screen. Guide the Green Circle to the Blue Circle.
+Imagine that you have two objects on your screen. Guide the Green Circle to the Blue Circle.
 
 - Blue Circle 
     - Is Blue
@@ -164,19 +156,20 @@ There are two types of languages.
 
 ## Goals of Java
 
-- Hava a syntax similar to C++. They did this to convert C++ programmers to Java.
+- Have a syntax similar to C++. They did this to convert C++ programmers to Java.
 - Be robust and secure.
     - Java doesn't have pointers, so there's no pointer syntax to understand.
-    - Java manages memory for the programmer, so much of the security risks involving memory are eleminated.
+    - Java manages memory for the programmer, so much of the security risks involving memory are eliminated.
     - Java memory management also handles memory leaks for the programmer.
 - Compile once. Run anywhere.
-    - How might they do this? C++ can't do this.
 - Be object-oriented.
 - Be multi-threaded and concurrent.
 
 ## From a High-Level Program to an Executable File
 
-1. Create file containing the program with a text editor or IDE.
+Here are the steps that we take to write programs in Java.
+
+1. Create ".java" file containing the program with a text editor or IDE.
 2. Run the Java Compiler to convert source program into Java Bytecode. This produces a new file called the Java Class file and will have the extension ".class".
 3. Run the Java Virtual Machine, which does two things:
     1. Converts the Java Bytecode into machine code. This is called **just-in-time compiling**.
@@ -191,17 +184,9 @@ The Java Virtual Machine takes care of the bytecode compiling and execution into
     - A byte is 8 bits.
     - $2^8$ is 256.
     - Java Bytecode is limited to 256 instructions.
-- The Java Virtual Machine will convert the bytecode into your computer's machine code on-the-fly and then execute that machine code.
+- The Java Virtual Machine (JVM) is a software application that will convert the bytecode into your computer's machine code on-the-fly and then execute that machine code.
 - The purpose of bytecode is to allow Java programs to compile on any computer and then be executed on any other computer.
     - This is part of the success behind the video game Minecraft. Any computer with a JVM can execute Minecraft.
-
-## From a High-Level Program to an Executable File
-
-Starting with Java 1.8, Java will compile directly to machine code for popular architectures. This does a few things:
-
-- Java is still compiling to bytecode. This is to support Java's "compile once and run anywhere" philosophy.
-- The Java Class files compiled in Java 1.8 are going to be slightly larger than Java Class files from earlier versions of Java.
-- The speed of the application will be improved because this allows the JVM to skip the just-in-time compiling step.
 
 ## IDE: Integrated Development Environment
 
@@ -311,3 +296,9 @@ All programs from Microsoft Word to Facebook to Overwatch follow this general ap
 4. Think a little.
 5. Code a little. Return to Step 2.
 
+# Homework
+
+## Your Homework Assignment
+
+- Write three programs that produce ASCII art.
+    - ASCII art is the creation of art using only text symbols.
