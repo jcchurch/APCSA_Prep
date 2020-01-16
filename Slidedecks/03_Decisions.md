@@ -1,5 +1,4 @@
-% Chapter 3: Decisions
-% CS 2070
+% Week 3: Decisions
 % \today
 
 # If Statements

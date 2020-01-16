@@ -1,4 +1,4 @@
-% Chapter 5: Methods
+% Week 5: Methods
 % \today
 
 # Introduction to Methods

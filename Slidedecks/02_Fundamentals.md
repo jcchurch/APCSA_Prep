@@ -1,4 +1,4 @@
-% Chapter 2: Java Fundamentals
+% Week 2: Java Fundamentals
 % AP Computer Science A Prep
 % \today
 
